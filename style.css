@@ -1,0 +1,51 @@
+#about{
+    background-color: #0c001c;
+}
+
+.btn-comprar{
+    background-color: black;
+    border: 0px;
+    padding: 10px;
+    color: white;
+    border-radius: 20px;
+    transition: ease all 1.0s;
+}
+
+.btn-comprar:hover{
+    background-color: rgb(103, 103, 103);
+    color: black;
+}
+
+#monitor{
+    background-color: white;
+}
+
+.imgmonitor{
+    margin: px;
+}
+
+.ctnmonitor{
+    margin-top: 100px;
+}
+
+.accordion-body{
+    background-color: rgba(128, 128, 128, 0.203);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-bottom: 10px;
+}
+
+footer{
+    padding: 20px;
+    background-color: black;
+    color: white;
+}
+
+
+@media only screen and (max-width: 900px) {
+
+.btn-comprar{
+    margin-top: 5px;
+}
+
+}
